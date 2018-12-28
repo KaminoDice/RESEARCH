@@ -1,0 +1,13 @@
+BookSC  
+Part of Z-library project. The world's largest scientific articles store. 50,000,000+ articles for free.
+
+http://booksc.xyz/  
+  
+http://b-ok.cc/  
+
+I can download books but can’t download articles or I can download articles but can’t download books
+Follow these steps to fix the problem:
+1. Logout from all our services http://singlelogin.org/logout.php
+2. Go to http://singlelogin.org
+3. Select http://booksc.xyz (in case you unable to download articles) or http://b-ok.cc (unable to download books) as a target host
+4. Input your login credentials and click on "Sign In" button
