@@ -51,3 +51,25 @@ Total 4 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/John-L-Smith/FHE
    b5b509b..f784ad9  master -> master
+
+# Recover a just deleted file
+## root@vultr:/home# git reset --hard HEAD^
+HEAD is now at 7f7274f Update 4U.htm
+## root@vultr:/home# ls
+4U.htm ... ... img
+## root@vultr:/home# git commit -m 'git reset --hard HEAD^ (4U.htm)'
+On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+nothing to commit, working tree clean
+## root@vultr:/home/github.io# git add 4U.htm
+## root@vultr:/home/github.io# git commit -m 'git reset the deleted file 4U.htm'
+## root@vultr:/home/github.io# git push origin master
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+## root@vultr:/home# git push  -f origin master
+ + 6e5015d...7f7274f master -> master (forced update)
