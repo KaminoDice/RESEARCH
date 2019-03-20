@@ -1,12 +1,16 @@
 # Repository: Bitbucket   
 is a web-based version control repository hosting service owned by Atlassian, for source code and development projects that use either Mercurial (since launch) or Git (since October 2011) revision control systems.   
-Bitbucket offers both commercial plans and free accounts. It offers free accounts with an unlimited number of private repositories (which can have up to five users in the case of free accounts) as of September 2010.    
-	bitbucket.org  
+Bitbucket offers both commercial plans and free accounts. It offers free accounts with an unlimited number of private repositories (which can have up to five users in the case of free accounts) as of September 2010.      
+  
+  https://bitbucket.org  
+
    
 # Repository: GitHub  
 is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project. 
-GitHub offers plans for enterprise, team, pro and free accounts which are commonly used to host open-source software projects. 
-	github.com  
+GitHub offers plans for enterprise, team, pro and free accounts which are commonly used to host open-source software projects.   
+  
+  https://github.com  
+
 
 # Delete a Folder
 
