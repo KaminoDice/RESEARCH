@@ -1,0 +1,1 @@
+Shazam is an application developed by Apple Inc., originally developed by Shazam Entertainment Ltd. prior to 2018.The application can identify music, movies, advertising, and television shows, based on a short sample played and using the microphone on the device. 
